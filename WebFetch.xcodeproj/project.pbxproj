@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		1E314C061CC2E3DD0068BEC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E314C051CC2E3DD0068BEC0 /* AppDelegate.swift */; };
-		1E314C081CC2E3DD0068BEC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E314C071CC2E3DD0068BEC0 /* ViewController.swift */; };
 		1E314C0B1CC2E3DD0068BEC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E314C091CC2E3DD0068BEC0 /* Main.storyboard */; };
 		1E314C0D1CC2E3DD0068BEC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E314C0C1CC2E3DD0068BEC0 /* Assets.xcassets */; };
 		1E314C101CC2E3DD0068BEC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E314C0E1CC2E3DD0068BEC0 /* LaunchScreen.storyboard */; };
+		1E314C181CC2E7E20068BEC0 /* GoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E314C171CC2E7E20068BEC0 /* GoogleViewController.swift */; };
+		1E314C1A1CC2E7F40068BEC0 /* BingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E314C191CC2E7F40068BEC0 /* BingViewController.swift */; };
+		1E314C1C1CC2E8020068BEC0 /* YahooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E314C1B1CC2E8020068BEC0 /* YahooViewController.swift */; };
+		1EF76C6F1CC419C300DCB5CD /* BING.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF76C6D1CC419C300DCB5CD /* BING.png */; };
+		1EF76C701CC419C300DCB5CD /* YAHOO.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF76C6E1CC419C300DCB5CD /* YAHOO.png */; };
+		1EF76C721CC41A6B00DCB5CD /* GOOGLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EF76C711CC41A6B00DCB5CD /* GOOGLE.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E314C021CC2E3DC0068BEC0 /* WebFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E314C051CC2E3DD0068BEC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E314C071CC2E3DD0068BEC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E314C0A1CC2E3DD0068BEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E314C0C1CC2E3DD0068BEC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E314C0F1CC2E3DD0068BEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E314C111CC2E3DD0068BEC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E314C171CC2E7E20068BEC0 /* GoogleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleViewController.swift; sourceTree = "<group>"; };
+		1E314C191CC2E7F40068BEC0 /* BingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingViewController.swift; sourceTree = "<group>"; };
+		1E314C1B1CC2E8020068BEC0 /* YahooViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooViewController.swift; sourceTree = "<group>"; };
+		1EF76C6D1CC419C300DCB5CD /* BING.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BING.png; sourceTree = "<group>"; };
+		1EF76C6E1CC419C300DCB5CD /* YAHOO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YAHOO.png; sourceTree = "<group>"; };
+		1EF76C711CC41A6B00DCB5CD /* GOOGLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GOOGLE.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				1E314C051CC2E3DD0068BEC0 /* AppDelegate.swift */,
-				1E314C071CC2E3DD0068BEC0 /* ViewController.swift */,
 				1E314C091CC2E3DD0068BEC0 /* Main.storyboard */,
+				1E314C171CC2E7E20068BEC0 /* GoogleViewController.swift */,
+				1EF76C6D1CC419C300DCB5CD /* BING.png */,
+				1EF76C711CC41A6B00DCB5CD /* GOOGLE.png */,
+				1EF76C6E1CC419C300DCB5CD /* YAHOO.png */,
+				1E314C191CC2E7F40068BEC0 /* BingViewController.swift */,
+				1E314C1B1CC2E8020068BEC0 /* YahooViewController.swift */,
 				1E314C0C1CC2E3DD0068BEC0 /* Assets.xcassets */,
 				1E314C0E1CC2E3DD0068BEC0 /* LaunchScreen.storyboard */,
 				1E314C111CC2E3DD0068BEC0 /* Info.plist */,
@@ -123,9 +138,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF76C701CC419C300DCB5CD /* YAHOO.png in Resources */,
 				1E314C101CC2E3DD0068BEC0 /* LaunchScreen.storyboard in Resources */,
+				1EF76C721CC41A6B00DCB5CD /* GOOGLE.png in Resources */,
 				1E314C0D1CC2E3DD0068BEC0 /* Assets.xcassets in Resources */,
 				1E314C0B1CC2E3DD0068BEC0 /* Main.storyboard in Resources */,
+				1EF76C6F1CC419C300DCB5CD /* BING.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E314C081CC2E3DD0068BEC0 /* ViewController.swift in Sources */,
 				1E314C061CC2E3DD0068BEC0 /* AppDelegate.swift in Sources */,
+				1E314C1C1CC2E8020068BEC0 /* YahooViewController.swift in Sources */,
+				1E314C1A1CC2E7F40068BEC0 /* BingViewController.swift in Sources */,
+				1E314C181CC2E7E20068BEC0 /* GoogleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +309,7 @@
 				1E314C161CC2E3DD0068BEC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
